@@ -84,7 +84,7 @@ nav ul li a
      align-items: center;
 }
 
-.ranking-area {
+.ranking-area, .meu-ranking-area {
      width: 310px;
      height: auto;
      display: flex;
@@ -116,14 +116,14 @@ nav ul li a
      width: 100%;
 }
 
-.ranking-list {
+.ranking-list, .meu-ranking-conquistas {
      display: flex;
      flex-direction: column;
      width: 100%; 
      margin-top: 12px;
 }
 
-.ranking-item {
+.ranking-item, .meu-ranking-conquista {
      display: flex;
      width: 100%;
      border: 1px solid #000;
@@ -131,13 +131,14 @@ nav ul li a
      margin-bottom: 6px;
 }
 
-.item-avatar {
+.item-avatar, .meu-conquistas-img {
      height: 40px;
      width: 40px;
      border: 1px solid #000;
 }
 
-.item-avatar img {
+.item-avatar img,
+.meu-conquistas-img img {
      height: 40px;
      width: 40px;
 }
